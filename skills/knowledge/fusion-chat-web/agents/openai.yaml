@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fusion Chat Web"
+  short_description: "Preserve and verify answers across web chat models"
+  default_prompt: "Use $fusion-chat-web to ask several web chat models this question and synthesize their verified union."

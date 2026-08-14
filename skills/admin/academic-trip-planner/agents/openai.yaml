@@ -1,0 +1,4 @@
+interface:
+  display_name: "Academic Trip Planner"
+  short_description: "Plan verified academic conference travel and budgets"
+  default_prompt: "Use $academic-trip-planner to research and plan my academic trip with verified flights, accommodation, registration, transfers, visa requirements, and a complete budget."
