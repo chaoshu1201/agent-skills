@@ -1,0 +1,45 @@
+{
+  "template": "conference-template.pptx",
+  "coverTemplateSlide": 1,
+  "contentTemplateSlide": 2,
+  "slides": [
+    {
+      "role": "cover",
+      "elements": [
+        {"type": "text", "name": "cover-title", "text": "Approved Paper Title", "x": 72, "y": 390, "w": 1136, "h": 150, "options": {"font": "Calibri", "size": 30, "bold": true, "color": "#FFFFFF", "align": "center"}},
+        {"type": "text", "name": "cover-authors", "text": "Verified Authors and Affiliation", "x": 100, "y": 580, "w": 1080, "h": 80, "options": {"size": 20, "align": "center"}}
+      ],
+      "notes": {"sources": ["Paper, title and introduction"]}
+    },
+    {
+      "title": "Approach and Evaluation",
+      "elements": [
+        {"type": "card", "name": "approach", "title": "Proposed Approach", "body": "A short explanation grounded in the approved outline.", "x": 72, "y": 200, "w": 520, "h": 260},
+        {"type": "card", "name": "evaluation", "title": "Evaluation Design", "body": "The actual comparison, data and conditions from the paper.", "x": 688, "y": 200, "w": 520, "h": 260}
+      ],
+      "connections": [{"from": "approach", "to": "evaluation"}],
+      "notes": {"sources": ["Paper, methods"]}
+    },
+    {
+      "title": "Results and Discussions",
+      "subtitle": "Primary Finding",
+      "elements": [
+        {"type": "bullets", "name": "interpretations", "items": [{"label": "Finding:", "text": "Use the paper's actual supported finding."}, {"label": "Limit:", "text": "Retain the relevant evaluation boundary."}], "x": 88, "y": 190, "w": 480, "h": 270}
+      ],
+      "notes": {"sources": ["Paper, results; add the original artwork as a picture element"]}
+    },
+    {
+      "title": "Contributions and Lessons",
+      "elements": [
+        {"type": "contribution", "name": "contribution-1", "heading": "Actual contribution", "items": ["Explain the evidence and implication."], "y": 170},
+        {"type": "contribution", "name": "contribution-2", "heading": "Evaluation boundary", "items": ["Retain the paper's scope and uncertainty."], "y": 380}
+      ],
+      "notes": {"sources": ["Paper, conclusion"]}
+    },
+    {
+      "role": "closing",
+      "closing": {},
+      "notes": {"sources": ["Presenter details from the current paper/user"]}
+    }
+  ]
+}

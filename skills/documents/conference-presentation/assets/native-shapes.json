@@ -1,0 +1,271 @@
+{
+  "cardBody": {
+    "shape": {
+      "geometry": 26,
+      "fill": {
+        "type": 1,
+        "color": {
+          "type": 1,
+          "value": "F2F2F2"
+        },
+        "gradientStops": [],
+        "pictureEffects": []
+      },
+      "line": {
+        "widthEmu": 0,
+        "fill": {
+          "type": 0,
+          "gradientStops": [],
+          "pictureEffects": []
+        },
+        "style": 0
+      },
+      "adjustmentList": [
+        {
+          "name": "adj",
+          "formula": "val 1874"
+        }
+      ],
+      "customPaths": [],
+      "customGeometryGuides": []
+    }
+  },
+  "cardHeader": {
+    "shape": {
+      "geometry": 28,
+      "fill": {
+        "type": 1,
+        "color": {
+          "type": 1,
+          "value": "21376A"
+        },
+        "gradientStops": [],
+        "pictureEffects": []
+      },
+      "line": {
+        "widthEmu": 0,
+        "fill": {
+          "type": 0,
+          "gradientStops": [],
+          "pictureEffects": []
+        },
+        "style": 0
+      },
+      "adjustmentList": [],
+      "customPaths": [],
+      "customGeometryGuides": []
+    }
+  },
+  "check1": {
+    "shape": {
+      "geometry": 188,
+      "fill": {
+        "type": 0,
+        "gradientStops": [],
+        "pictureEffects": []
+      },
+      "line": {
+        "cap": 2,
+        "join": 1,
+        "widthEmu": 38100,
+        "fill": {
+          "type": 1,
+          "color": {
+            "type": 1,
+            "value": "21376A"
+          },
+          "gradientStops": [],
+          "pictureEffects": []
+        },
+        "style": 1
+      },
+      "adjustmentList": [],
+      "rectFormula": {
+        "t": "0",
+        "l": "0",
+        "r": "r",
+        "b": "b"
+      },
+      "customPaths": [
+        {
+          "widthEmu": 166,
+          "heightEmu": 148,
+          "commands": [
+            {
+              "moveTo": {
+                "x": 166,
+                "y": 0
+              }
+            },
+            {
+              "lineTo": {
+                "x": 48,
+                "y": 148
+              }
+            },
+            {
+              "lineTo": {
+                "x": 0,
+                "y": 100
+              }
+            }
+          ]
+        }
+      ],
+      "customGeometryGuides": [
+        {
+          "name": "T0",
+          "formula": "*/ 166 w 166"
+        },
+        {
+          "name": "T1",
+          "formula": "*/ 0 h 148"
+        },
+        {
+          "name": "T2",
+          "formula": "*/ 48 w 166"
+        },
+        {
+          "name": "T3",
+          "formula": "*/ 148 h 148"
+        },
+        {
+          "name": "T4",
+          "formula": "*/ 0 w 166"
+        },
+        {
+          "name": "T5",
+          "formula": "*/ 100 h 148"
+        }
+      ]
+    },
+    "bbox": {
+      "x": 63.408083989501314,
+      "y": 212,
+      "w": 27.204199475065618,
+      "h": 24.254278215223096
+    }
+  },
+  "check2": {
+    "shape": {
+      "geometry": 188,
+      "fill": {
+        "type": 0,
+        "gradientStops": [],
+        "pictureEffects": []
+      },
+      "line": {
+        "cap": 2,
+        "join": 1,
+        "widthEmu": 38100,
+        "fill": {
+          "type": 1,
+          "color": {
+            "type": 1,
+            "value": "21376A"
+          },
+          "gradientStops": [],
+          "pictureEffects": []
+        },
+        "style": 1
+      },
+      "adjustmentList": [],
+      "rectFormula": {
+        "t": "0",
+        "l": "0",
+        "r": "r",
+        "b": "b"
+      },
+      "customPaths": [
+        {
+          "widthEmu": 171,
+          "heightEmu": 172,
+          "commands": [
+            {
+              "moveTo": {
+                "x": 171,
+                "y": 62
+              }
+            },
+            {
+              "lineTo": {
+                "x": 171,
+                "y": 172
+              }
+            },
+            {
+              "lineTo": {
+                "x": 0,
+                "y": 172
+              }
+            },
+            {
+              "lineTo": {
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "lineTo": {
+                "x": 119,
+                "y": 0
+              }
+            }
+          ]
+        }
+      ],
+      "customGeometryGuides": [
+        {
+          "name": "T0",
+          "formula": "*/ 171 w 171"
+        },
+        {
+          "name": "T1",
+          "formula": "*/ 62 h 172"
+        },
+        {
+          "name": "T2",
+          "formula": "*/ 171 w 171"
+        },
+        {
+          "name": "T3",
+          "formula": "*/ 172 h 172"
+        },
+        {
+          "name": "T4",
+          "formula": "*/ 0 w 171"
+        },
+        {
+          "name": "T5",
+          "formula": "*/ 172 h 172"
+        },
+        {
+          "name": "T6",
+          "formula": "*/ 0 w 171"
+        },
+        {
+          "name": "T7",
+          "formula": "*/ 0 h 172"
+        },
+        {
+          "name": "T8",
+          "formula": "*/ 119 w 171"
+        },
+        {
+          "name": "T9",
+          "formula": "*/ 0 h 172"
+        }
+      ]
+    },
+    "bbox": {
+      "x": 58,
+      "y": 216.26089238845145,
+      "w": 28.023622047244096,
+      "h": 28.18740157480315
+    }
+  },
+  "checkBounds": {
+    "x": 58,
+    "y": 212
+  }
+}

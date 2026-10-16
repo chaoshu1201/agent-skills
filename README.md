@@ -72,6 +72,27 @@ Administrative, planning, and operational workflows.
 Please use the /academic-conference-planner skill to plan my trip and budget for ICML 2026 at https://icml.cc/Conferences/2026
 ```
 
+### `documents`
+
+Document, paper, and presentation authoring workflows.
+
+#### [Conference Presentation](skills/documents/conference-presentation/)
+
+**What it does:** Turns a research paper into an editable conference PowerPoint in a recorded personal style. Starting from the paper PDF, its original figure artworks, and a supplied PPTX template, it builds an evidence-backed outline, applies the style's typography and visual rules, and renders and inspects every slide. Speaking notes are written only after the finished slides are approved.
+
+**When to use it:** Use it when you are preparing an academic conference talk, or revising one, from a paper and a conference template. It is not intended for unrelated business decks.
+
+**How to use it:** Invoke it with `$conference-presentation` and provide the paper PDF, the original figure artworks, the conference PPTX template, and any talk-length or venue constraints. The skill pauses twice for your approval: first on the completed outline before it builds the deck, then on the finished slides before it writes speaking notes.
+
+**Compatibility:** Codex.
+
+```text
+Use $conference-presentation to prepare a 15-minute conference talk from:
+- Paper: [paper PDF]
+- Figure artworks: [figure folder]
+- Template: [conference PPTX template]
+```
+
 ### `knowledge`
 
 Research, comparison, verification, and synthesis workflows.
